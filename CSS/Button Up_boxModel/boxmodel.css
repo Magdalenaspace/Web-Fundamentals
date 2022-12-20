@@ -1,0 +1,60 @@
+/* specifically set the margin, padding, or border of any side of an element.*/
+div{
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 75px;
+    padding-left: 100px;
+  }
+   
+  
+  /* shorthand propert = */
+
+  div{
+    padding: 25px 50px 75px 100px;
+  }
+   
+  /* other version of short = */
+  div{
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 75px;
+    padding-left: 50px;
+  }
+   
+/* to   */
+div{
+    padding: 25px 50px 75px;
+  }
+   
+  /* or */
+  div{
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+  }
+   
+/* to   */
+div{
+    padding: 25px 50px;
+  }
+   
+/* or */
+div{
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+  }
+   
+  /* to */
+  div{
+    padding: 25px;
+  }
+   
+  /* (The order flows clockwise, top -> right -> bottom -> left.) */
+  /* according to the box model, the total width of an element is:
+
+(Margin x 2) + (Border x 2) + (Padding x 2) + Content Width
+
+  */

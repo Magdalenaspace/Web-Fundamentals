@@ -1,0 +1,21 @@
+.row {
+    display: flex;
+}
+.col {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: lightcyan;
+}
+.col-2 {
+    flex: 2;
+    padding: 20px;
+    margin: 10px
+    background-color: palegreen;
+}
+
+/*   best with all of this is the ease in setting up even columns as we don't need to
+ figure out the exact width in pixels each column needs to take up 
+and we don't have to factor in any padding, borders, or margins in those calculations.
+
+*/

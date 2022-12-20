@@ -1,0 +1,17 @@
+.container {
+    width: 720px;
+    height: 250px;
+    background-color: silver;
+    display: flex;
+    align-items: center;
+}
+    
+.col {
+    width: 220px;
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+/* the align-items: center; will prevent the columns from stretching 
+(inheriting the height of the parent container div). 
+Try out other values like flex-start and flex-end. */
+
